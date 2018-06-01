@@ -1,5 +1,5 @@
-let a = +process.argv[1];
-let b = +process.argv[2];
+let a = +process.argv[2];
+let b = +process.argv[3];
 
 let sec = a + b;
 let min = sec / 60;
