@@ -18,9 +18,9 @@ let num10 = parseToNS(num, ns);
 return intToString(num10, newns);
 }
 
-let i = process.argv[1];
-let a = process.argv[2];
-let b = process.argv[3];
+let i = process.argv[2];
+let a = process.argv[3];
+let b = process.argv[4];
 
 let result = convertNumberSystem(i, a, b);
 
