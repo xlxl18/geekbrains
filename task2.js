@@ -12,9 +12,9 @@ let month = {'января'  : 0,
 			 'декабря' : 11
 }
 
-let d = +process.argv[1]; // 4
-let m = process.argv[2]; // июля
-let y = +process.argv[3]; // 2018
+let d = +process.argv[2]; // 4
+let m = process.argv[3]; // июля
+let y = +process.argv[4]; // 2018
 
 let newYear = new Date(y + 1, 0, 0);
 let date = new Date(y, month[m], d);
