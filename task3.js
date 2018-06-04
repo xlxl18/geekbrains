@@ -1,4 +1,5 @@
 /* Task 3 */
+
 let a = +process.argv[2];
 let b = +process.argv[3];
 
